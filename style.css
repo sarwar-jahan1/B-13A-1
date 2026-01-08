@@ -183,5 +183,83 @@ nav .btn-div .btn{
     margin-bottom: 16px;
 }
 .middle-point-box{
-    margin-bottom: 120px;
+    margin-bottom: 40px;
+}
+.Thinking-part-container .Thinking-part{
+    text-align: center;
+    padding: 80px 40px;
+    background: rgba(247, 246, 242, 1);
+    border-radius: 12px;
+}
+.Thinking-part h1{
+    font-style: Bold;
+    font-size: 40px;
+    font-weight: 700;
+    margin-bottom: 16px;
+}
+.Thinking-part p{
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 24px;
+}
+
+.Thinking-part .diff-btn{
+    padding: 16px ;
+    border-radius: 8px;
+    background-color: #30B868;
+    color: white;
+    border: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-right: 15px;
+    cursor: pointer;
+}
+.Thinking-part-container{
+    margin-bottom: 80px;
+}
+.Thinking-part h4{
+    margin-top: 30px;
+}
+.Thinking-part h4{
+    color: rgb(148, 175, 125);
+    font-size: 16px;
+    font-weight: 400;
+}
+.footer{
+        background: var(--Style, rgba(0, 25, 49, 1));
+}
+.last-container{
+    align-items: center;
+    width: 100%;
+    height: 348px;
+    text-align: center;
+    color: white;
+    padding-top: 50px;
+}
+.last-container .last-div{
+    display: flex;
+    justify-content: space-between;
+    padding: 120px 120px 30px 120px;
+    border-bottom: 0.1px solid rgb(88, 88, 88);
+    margin-bottom: 70px;
+}
+.last-div .imgg{
+    background-size: contain;
+}
+
+.last-div .media p{
+    color: aliceblue;
+    margin-bottom: 16px;
+}
+.media .social-media a img{
+    margin-right: 16px;
+    padding: 2px;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.footer.last-container .last-wright p{
+    text-align: center;
+    
+    color: white;
 }
