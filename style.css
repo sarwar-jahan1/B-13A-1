@@ -152,3 +152,36 @@ nav .btn-div .btn{
     font-weight: 400;
     line-height: 20px;
 }
+.middle-point-box .main-point-box .point-box{
+    display: flex;
+    gap: 60px;
+    margin-top: 72px;
+}
+.point-box .point-box-content{
+    margin-top: 130px;
+}
+.point-box-content p{
+    color: #30B868;
+    margin-bottom: 16px;
+}
+.point-box-content h1{
+    margin-bottom: 16px;
+    font-style: Bold;
+    font-size: 48px;
+    font-weight: 700;
+}
+.point-box-content .big-para{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 20px;
+    margin-bottom: 40px;
+}
+.point-box-content .mark-content .item{
+    display: flex;
+    gap: 8px;
+    color: #333;
+    margin-bottom: 16px;
+}
+.middle-point-box{
+    margin-bottom: 120px;
+}
