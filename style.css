@@ -60,7 +60,10 @@ nav .btn-div .btn:hover{
 .hero .content .content-btn .btnnnn{
     padding-right: 10px;
 }
-
+.hero .content .content-btn :hover {
+    background-color: brown;
+    color: white;
+}
 .hero .content{
     text-align: center;
     padding: 100px;
