@@ -45,8 +45,8 @@ nav .btn-div .btn{
     padding: 12px 16px;
 }
 nav .btn-div .btn:hover{
-    background-color: rgb(15, 15, 15);
-    color: teal;
+    background-color: brown;
+    color: white;
 }
 .hero{
     position: relative;
@@ -106,8 +106,8 @@ nav .btn-div .btn:hover{
     cursor: pointer;
 }
 .content .btn1:hover{
-    background-color: rgb(15, 15, 15);
-    color: teal;
+    background-color: brown;
+    color: white;
 }
 .content .btn2{
     padding: 16px;
@@ -124,8 +124,7 @@ nav .btn-div .btn:hover{
     border: 1px solid white;
 }
 .content .btn2:hover{
-    background-color: white;
-    color: black;
+    color: brown;
 }
 .box-container-main .box-content{
     text-align: center;
