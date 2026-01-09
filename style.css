@@ -53,12 +53,15 @@ nav .btn-div .btn{
     justify-content: center;
     background-size: cover;
 }
+.hero .content .content-btn .btnnnn{
+    padding-right: 10px;
+}
 
 .hero .content{
     text-align: center;
     padding: 100px;
 }
-.content .main-btn{
+.content .content-btn .main-btn{
     background-color: white;
     color: #30B868;
     border-radius: 1000px;
@@ -78,10 +81,11 @@ nav .btn-div .btn{
 
 .content .p2{
     margin-top: 16px;
-    font-size: 18px;
+    font-size: 16px;
     font-weight: 400;
     margin-bottom: 32px;
     line-height: 25px;
+    color: white;
 }
 .content .btn1{
     padding: 16px ;
@@ -104,8 +108,10 @@ nav .btn-div .btn{
     font-weight: 600;
     margin-right: 15px;
     cursor: pointer;
-    background: rgba(173, 168, 168, 0.9);
-    color: #333;
+    background-image: url("./assets/hero-bg.png");
+    /* background-size: cover; */
+    background-position: center;
+    border: 1px solid white;
 }
 .box-container-main .box-content{
     text-align: center;
@@ -240,11 +246,20 @@ nav .btn-div .btn{
     display: flex;
     justify-content: space-between;
     padding: 120px 120px 30px 120px;
-    border-bottom: 0.1px solid rgb(88, 88, 88);
     margin-bottom: 70px;
+    
+}
+hr{
+    border: 0;
+    height: 1px;
+    background: rgba(255,255,255,0.2);
+    margin: 20px 0;
 }
 .last-div .imgg{
+    width: 139px;
+    height: 60px;
     background-size: contain;
+    padding-right: 100px;
 }
 
 .last-div .media p{
